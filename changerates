@@ -2,7 +2,7 @@
 
 ///////// GET COMMAND PARAMETERS
 if ($argc < 5) {
-     echo "USAGE: php sendmodmode.php <Portal_username> <Portal_password> <ESN> <MODE> <Time period>\n";
+     echo "USAGE: php sendmodmode.php <Portal_username> <Portal_password> <ESN> <MODE(2,4 or 8)> <Time period(minutes)>\n";
      exit();
 }
 $username = $argv[1];
